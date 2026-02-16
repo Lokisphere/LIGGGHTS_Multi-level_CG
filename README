@@ -1,18 +1,23 @@
 ----------------------------------------------------------------------
-This is the implementation of Multi-level Coarse-Graining in LIGGGHTS. 
-This repository contains an example folder which showcases the capabilities
+This is the implementation of Multi-level Coarse-Graining in LIGGGHTS.This 
+repository contains an example folder which showcases the capabilities
 of MCG.
 
-References: 
-[1] Tarun De, Jayanta Chakraborty, Jitendra Kumar, Anurag Tripathi, Maitraye Sen, William Ketterhagen,
-A particle location based multi-level coarse-graining technique for Discrete Element Method (DEM) simulation,
-Powder Technology, Volume 398, 2022, 117058, https://doi.org/10.1016/j.powtec.2021.117058.
+To turn ON MCG, add this fix in the input script "fix MCG_ all mcg". Comment 
+or remove this line to switch it off.
 
-[2] Lokeshwar Mahto, Tarun De, Jayanta Chakraborty, Jitendra Kumar, Anurag Tripathi, Maitraye Sen, William Ketterhagen,
-Accelerated DEM simulation of the hopper-screw feeder and tablet-press feeder using the multi-level coarse-graining technique,
-Powder Technology, Volume 436, 2024, 119466, https://doi.org/10.1016/j.powtec.2024.119466.
+For defining the refinement and coarsening criteria, edit the file 
+fix_mcg.cpp.
+
+References: 
+[1] Tarun De, Jayanta Chakraborty, Jitendra Kumar, Anurag Tripathi, Maitraye 
+Sen, William Ketterhagen, A particle location based multi-level coarse-graining
+technique for Discrete Element Method (DEM) simulation, Powder Technology, 
+Volume 398, 2022, 117058, https://doi.org/10.1016/j.powtec.2021.117058.
+
+[2] Lokeshwar Mahto, Tarun De, Jayanta Chakraborty, Jitendra Kumar, Anurag 
+Tripathi, Maitraye Sen, William Ketterhagen, Accelerated DEM simulation of the 
+hopper-screw feeder and tablet-press feeder using the multi-level coarse-graining
+technique, Powder Technology, Volume 436, 2024, 119466, https://doi.org/10.1016/j.powtec.2024.119466.
 
 ----------------------------------------------------------------------
-
-Core developer and main author of LIGGGHTS®:
-Christoph Kloss, christoph.kloss@dcs-computing.com
