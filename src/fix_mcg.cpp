@@ -83,8 +83,6 @@ void FixMCG::pre_exchange()
     }
 
     neighbor->ago = 0;   // force rebuild
-    //Fix *fch = modify->find_fix_style_strict("contacthistory",0);
-    //if (fch) fch->post_neighbor();
 }
 
 
